@@ -8,15 +8,16 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "airbnb-base",
     "prettier",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended",
     "react-app", 
     "react-app/jest"
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
-  plugins: ["react-refresh", "prettier"],
+  plugins: ["react", "react-refresh", "prettier"],
   rules: {
-    "prettier/prettier": ["error"],
     "react/jsx-no-target-blank": "off",
     "react-refresh/only-export-components": [
       "warn",
