@@ -8,7 +8,8 @@ export default {
       //   montserrat: ['Montserrat', 'sans-serif'],
       // },
       colors: {
-        yellow: '#ffe93e',
+        yellow: '#FFE704',
+        darkYellow: '#FFCF03',
         red: '#f34220',
         blue: '#3681c1',
         darkGrey: '#2c291c',
